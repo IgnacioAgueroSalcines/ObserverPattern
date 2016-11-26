@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace ObserverPattern
 {
-    public class Hijo
+    public interface ObservadorPersona
     {
-        public String nombre { get; set; }
-
-        public Hijo(String nombre)
-        {
-            this.nombre = nombre;
-        }
-
+         void esposaCambiada(Madre m);
+         void esposoCambiado(Padre p);
     }
 }

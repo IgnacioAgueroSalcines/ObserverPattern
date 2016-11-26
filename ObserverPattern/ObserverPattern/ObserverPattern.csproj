@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="Madre.cs" />
     <Compile Include="Hijo.cs" />
+    <Compile Include="ObservadorPersona.cs" />
     <Compile Include="Padre.cs" />
+    <Compile Include="PersonaObservable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
